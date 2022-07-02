@@ -1,8 +1,11 @@
 body{
     background-color: black;
 }
-h1,h2{
+h1{
     color: #ffc916;
+}
+h2,h4{
+    color: #e6e6e6e1;
 }
 p {
     color: #e6e6e6;
@@ -18,4 +21,7 @@ nav table{
 nav table td{
     width: 10%;
     text-align: center;
+}
+th,td,caption{
+    color: #e6e6e6e1;
 }
