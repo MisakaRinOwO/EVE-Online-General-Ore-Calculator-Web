@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
-
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Misaka Rin">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="EVE Online ore refinary yield calculator">
         <title>EVE Online Ore Yield Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
         <style>
             img {
                 width: 40px;
+            }
+            th,td,h2,caption{
+                color: #e6e6e6e1;
+            }
+            textarea,button,select{
+                background-color: #e6e6e65e;
+                color: #e6e6e6e1;
+            }
+            td{
+                vertical-align: top;
+            }
+            table{
+                border-spacing: 20px;
+            }
+            select option{
+                background: #525252;
+                color: #e6e6e6e1;
             }
         </style>
     </head>
@@ -23,12 +39,13 @@
             <p>game version as June/20/2022</p>
             <br>
             <nav>
-                <div>
-                    <span><a href="index.html">Home</a></span>
-                    <span><a href="ycalculator.html">Yield Calculator</a></span>
-                    <!-- <span><a href="asettings.html">Attribute Settings</a></span> -->
-                    <span><a href="resources.html">Resources</a></span>
-                </div>
+                <table>
+                    <tr>
+                        <td><a href="index.html">Home</a></td>
+                        <td><a href="ycalculator.html">Yield Calculator</a></td>
+                        <td><a href="resources.html">Resources</a></td>
+                    </tr>
+                </table>
             </nav>
         </header>
         <hr size="5" noshade>
@@ -120,7 +137,7 @@
                                         <label id="ComYield">Complex Ore Efficiency: 50%</label><br>
                                         <label id="MerYield">Mercoxit Ore Efficiency: 50%</label><br>
                                         <label id="AbyYield">Abyssal Ore Efficiency: 50%</label><br>
-                                        <input type="submit" value="Reset"><br><br> 
+                                        <button type="button"><a href="ycalculator.html" style="color: red">Reset</a>
                                     </div>
                                 </td>
         

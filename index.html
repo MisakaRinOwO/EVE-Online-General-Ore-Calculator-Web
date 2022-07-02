@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
-
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Misaka Rin">
@@ -10,6 +7,24 @@
         <meta name="keywords" content="EVE Online, ore, refinary, calculator, mineral, yield">
         <meta name="description" content="EVE Online ore refinary yield calculator">
         <title>EVE Online Ore Yield Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+        <style>
+            table {
+                width: 60%;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            th,td,h2,caption{
+                color: #e6e6e6e1;
+            }
+            tbody tr:nth-child(odd){
+                background-color:rgba(240, 248, 255, 0.267);
+            }
+            tbody:nth-child(1) tr:nth-child(1){
+                background-color:black;
+            }
+        </style>
     </head>
 
     <body>
@@ -19,12 +34,13 @@
             <p>game version as June/20/2022</p>
             <br>
             <nav>
-                <div>
-                    <span><a href="index.html">Home</a></span>
-                    <span><a href="ycalculator.html">Yield Calculator</a></span>
-                    <!-- <span><a href="asettings.html">Attribute Settings</a></span> -->
-                    <span><a href="resources.html">Resources</a></span>
-                </div>
+                <table>
+                    <tr>
+                        <td><a href="index.html">Home</a></td>
+                        <td><a href="ycalculator.html">Yield Calculator</a></td>
+                        <td><a href="resources.html">Resources</a></td>
+                    </tr>
+                </table>
             </nav>
         </header>
         <hr  size="5" noshade>
@@ -34,7 +50,7 @@
             <br>
             <div id="Refinary Table">
                 <table>
-                    <thead>
+                    <tbody>
                         <caption><h2>Refinary Table</h2>(per 100 unit of ore)</caption>
                         <tr>
                             <th></th>
@@ -60,18 +76,31 @@
                             <th>Megacyte</th>
                             <th>Morphite</th>
                         </tr>
-                    </thead>
+                    </tbody>
                     <tbody>
                         <tr>
                             <th><img src="ore icon/Veldspar.png" height="48"></th>
                             <td><b>Veldspar</b></td>
                             <td>400</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Scordite.png" height="48"></th>
                             <td><b>Scordite</b></td>
                             <td>150</td>
                             <td>90</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Pyroxeres.png" height="48"></th>
@@ -79,6 +108,12 @@
                             <td></td>
                             <td>90</td>
                             <td>30</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Plagioclase.png" height="48"></th>
@@ -94,6 +129,10 @@
                             <td>90</td>
                             <td></td>
                             <td>75</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Kernite.png" height="48"></th>
@@ -111,6 +150,9 @@
                             <td>150</td>
                             <td></td>
                             <td>50</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Hemorphite.png" height="48"></th>
@@ -129,6 +171,9 @@
                             <td></td>
                             <td></td>
                             <td>120</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Gneiss.png" height="48"></th>
@@ -146,6 +191,9 @@
                             <td>1360</td>
                             <td>1200</td>
                             <td>320</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Crokite.png" height="48"></th>
@@ -165,6 +213,8 @@
                             <td></td>
                             <td></td>
                             <td>160</td>
+                            <td></td>
+                            <td></td>
                             
                         </tr>
                         <tr>
@@ -211,6 +261,7 @@
                             <td></td>
                             <td></td>
                             <td>128</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Rakovene.png" height="48"></th>
@@ -232,6 +283,7 @@
                             <td>960</td>
                             <td></td>
                             <td>32</td>
+                            <td></td>
                         </tr>
 
 

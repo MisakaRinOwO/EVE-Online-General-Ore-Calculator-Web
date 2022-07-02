@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
 
     <head>
         <meta charset="UTF-8">
@@ -9,6 +7,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="EVE Online ore refinary yield calculator">
         <title>EVE Online Ore Yield Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+        <style>
+            h2{
+                color: #e6e6e6e1;
+            }
+            li::before {content: "•"; color: #ffff88;
+            display: inline-block; width: 2em;
+            margin-left: -1em}
+        </style>
     </head>
 
     <body>
@@ -18,12 +26,13 @@
             <p>game version as June/20/2022</p>
             <br>
             <nav>
-                <div>
-                    <span><a href="index.html">Home</a></span>
-                    <span><a href="ycalculator.html">Yield Calculator</a></span>
-                    <!-- <span><a href="asettings.html">Attribute Settings</a></span> -->
-                    <span><a href="resources.html">Resources</a></span>
-                </div>
+                <table>
+                    <tr>
+                        <td><a href="index.html">Home</a></td>
+                        <td><a href="ycalculator.html">Yield Calculator</a></td>
+                        <td><a href="resources.html">Resources</a></td>
+                    </tr>
+                </table>
             </nav>
         </header>
         <hr  size="5" noshade>
@@ -31,16 +40,12 @@
             <h2>Resources</h2>
             <p style="color:red">This website is created for personal use only, regular maintainance is not guaranteed and Misaka is not reponsible for any loss resulting from using this website!</p>
             <br>
-            <div>
-                <a href="https://forums.eveonline.com/t/details-on-forthcoming-improvements-to-compression-mechanics/349870" target="_blank">Details on forthcoming improvements to compression mechanics// Feb2022</a>
-                <br>
-                <a href="https://www.eveonline.com/news/view/resource-distribution-update" target="_blank">Resource Distribution Update// Sep2020</a>
-                <br>
-                <a href="https://www.eveonline.com/news/view/from-extraction-to-production#Resources" target="_blank">From Extraction to Production Update// Nov2021</a>
-                <br>
-                <a href="https://wiki.eveuniversity.org/Reprocessing" target="_blank">Reprocessing Formula</a>
-                <br>
-            </div>
+            <ul>
+                <li><a href="https://forums.eveonline.com/t/details-on-forthcoming-improvements-to-compression-mechanics/349870" target="_blank">Details on forthcoming improvements to compression mechanics// Feb2022</a></li>
+                <li><a href="https://www.eveonline.com/news/view/resource-distribution-update" target="_blank">Resource Distribution Update// Sep2020</a></li>
+                <li><a href="https://www.eveonline.com/news/view/from-extraction-to-production#Resources" target="_blank">From Extraction to Production Update// Nov2021</a></li>
+                <li><a href="https://wiki.eveuniversity.org/Reprocessing" target="_blank">Reprocessing Formula</a></li>
+            </ul>
 
         </main>
         <hr  size="5" noshade>

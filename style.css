@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1,h2{
+    color: #ffc916;
+}
+p {
+    color: #e6e6e6;
+}
+a {
+    color: #ffff88;
+    text-decoration: none;
+}
+nav table{
+    width: 30%;
+    border-collapse: collapse;
+}
+nav table td{
+    width: 10%;
+    text-align: center;
+}
