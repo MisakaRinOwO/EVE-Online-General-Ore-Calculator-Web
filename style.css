@@ -1,27 +1,120 @@
-body{
-    background-color: black;
-}
-h1{
-    color: #ffc916;
-}
-h2,h4{
-    color: #e6e6e6e1;
-}
-p {
-    color: #e6e6e6;
-}
 a {
     color: #ffff88;
     text-decoration: none;
 }
-nav table{
-    width: 30%;
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: #ffc916;
+}
+
+h2,h3,h4, th,td,caption{
+    color: #e6e6e6e1;
+}
+hr{
+    border: 0 transparent;
+    border-top: 6px solid rgba(99, 141, 255, 0.801);
+    
+}
+nav a{
+    padding: 2.5%;
+}
+
+p {
+    color: #e6e6e6;
+}
+
+.RefinaryTable{
+    width: 70%;
+    text-align: center;
+    border: 1px solid #e6e6e6e1;
     border-collapse: collapse;
 }
-nav table td{
-    width: 10%;
-    text-align: center;
+
+.RefinaryTable tbody tr:nth-child(odd){
+    background-color:rgba(240, 248, 255, 0.267);
 }
-th,td,caption{
+
+.RefinaryTable tbody:nth-child(1) tr:nth-child(1){
+    background-color:transparent;
+}
+
+.RefinaryTable th:nth-child(n+3), .RefinaryTable td:nth-child(n+3){
+    border-left: 1px solid #e6e6e6e1;
+}
+
+.RefinaryTable .MineralRow th:nth-child(n+3), .RefinaryTable tbody tr:nth-child(n+3) td:nth-child(n+3){
+    padding: 5px;
+}
+
+.RefinaryTable tr:nth-child(n+3) td:nth-child(2){
+    padding-left: 0;
+}
+
+.container{
+    height: 600px;
+}
+
+.container textarea, .container button, .container select{
+    background-color: #e6e6e65e;
     color: #e6e6e6e1;
+}
+
+.container h3{
+    margin-top: 0;
+}
+
+.container select option{
+    background: #525252;
+    color: #e6e6e6e1;
+}
+
+.container label, output{
+    color: #e6e6e6e1;
+}
+
+.container .EnvAttr{
+    height:350px;
+    width: 200px;
+    position: absolute;
+    left: 20px;
+}
+
+.container .OreAttr{
+    height:350px;
+    position: absolute;
+    left: 250px;
+}
+
+.container .ChrAttr{
+    left: 20px;
+    height: 250px;
+    width: 200px;
+    top: 670px;
+    position: absolute;
+}
+
+.container .EffDisp{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 670px;
+    left: 250px;
+}
+
+.container .InvArea{
+    position: absolute;
+    left:500px;
+}
+
+.container .YieldArea{
+    position: absolute;
+    left:1150px;
+}
+
+.container .YieldArea img{
+    width: 40px;
 }

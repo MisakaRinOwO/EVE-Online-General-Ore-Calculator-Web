@@ -9,20 +9,6 @@
         <title>EVE Online Ore Yield Calculator</title>
         <link rel="stylesheet" href="style.css">
         <script src="index.js"></script>
-        <style>
-            table {
-                width: 60%;
-                border-collapse: collapse;
-                text-align: center;
-            }
-            
-            tbody tr:nth-child(odd){
-                background-color:rgba(240, 248, 255, 0.267);
-            }
-            tbody:nth-child(1) tr:nth-child(1){
-                background-color:black;
-            }
-        </style>
     </head>
 
     <body>
@@ -32,16 +18,12 @@
             <p>game version as June/20/2022</p>
             <br>
             <nav>
-                <table>
-                    <tr>
-                        <td><a href="index.html">Home</a></td>
-                        <td><a href="ycalculator.html">Yield Calculator</a></td>
-                        <td><a href="resources.html">Resources</a></td>
-                        <td><a href="help.html">Help</a></td>
-                    </tr>
-                </table>
+                <a href="index.html">Home</a>
+                <a href="ycalculator.html">Yield Calculator</a>
+                <a href="resources.html">Resources</a>
+                <a href="help.html">Help</a>
             </nav>
-            <hr  size="5" noshade>
+            <hr>
         </header>
         
         <main>
@@ -49,7 +31,7 @@
             <p style="color:red">This website is created for personal use only, regular maintainance is not guaranteed and Misaka is not reponsible for any loss resulting from using this website!</p>
             <br>
             <div id="Refinary Table">
-                <table>
+                <table class="RefinaryTable">
                     <tbody>
                         <caption><h2>Refinary Table</h2>(per 100 unit of ore)</caption>
                         <tr>
@@ -64,7 +46,7 @@
                             <th><img src="mineral icon/Megacite2.png"></th>
                             <th><img src="mineral icon/Morphite2.png"></th>
                         </tr>
-                        <tr>
+                        <tr class="MineralRow">
                             <th></th>
                             <th></th>
                             <th>Tritanium</th>
@@ -76,8 +58,6 @@
                             <th>Megacyte</th>
                             <th>Morphite</th>
                         </tr>
-                    </tbody>
-                    <tbody>
                         <tr>
                             <th><img src="ore icon/Veldspar.png" height="48"></th>
                             <td><b>Veldspar</b></td>
@@ -113,7 +93,6 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Plagioclase.png" height="48"></th>
@@ -121,6 +100,11 @@
                             <td>175</td>
                             <td></td>
                             <td>70</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Omber.png" height="48"></th>
@@ -141,6 +125,10 @@
                             <td></td>
                             <td>60</td>
                             <td>120</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Jaspet.png" height="48"></th>
@@ -162,6 +150,9 @@
                             <td></td>
                             <td>240</td>
                             <td>90</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Hedbergite.png" height="48"></th>
@@ -182,6 +173,10 @@
                             <td>2000</td>
                             <td>1500</td>
                             <td>800</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Dark Ochre.png" height="48"></th>  
@@ -203,6 +198,9 @@
                             <td>2000</td>
                             <td></td>
                             <td>800</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Bistot.png" height="48"></th>
@@ -227,6 +225,7 @@
                             <td></td>
                             <td></td>
                             <td>120</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Mercoxit.png" height="48"></th>
@@ -250,6 +249,7 @@
                             <td>160</td>
                             <td>80</td>
                             <td>40</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Bezdnacine.png" height="48"></th>
@@ -272,6 +272,8 @@
                             <td>3200</td>
                             <td></td>
                             <td>200</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th><img src="ore icon/Talassonite.png" height="48"></th>
@@ -290,7 +292,7 @@
                     </tbody>
                 </table>
             </div>
-            <hr  size="5" noshade>
+            <hr>
         </main>
         
         <footer>
